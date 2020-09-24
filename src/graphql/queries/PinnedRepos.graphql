@@ -1,0 +1,17 @@
+query PinnedRepos {
+    viewer {
+      pinnedItems(first: 6) {
+        edges {
+          node {
+            ... on Repository {
+              name
+              description
+              pushedAt
+              url
+              homepageUrl
+            }
+          }
+        }
+      }
+    }
+  }
