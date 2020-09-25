@@ -14,9 +14,12 @@ export const PinnedRepos: React.FC = () => {
             justifyContent: 'center',
             textAlign: 'left',
             position : 'absolute',
-            background : '#ffe6f8',
-            margin : '5%',
-            padding : '2%'
+            background : 'none',
+            border : '2px solid #73AD21',
+            borderRadius : '25px',
+            marginBottom : '6%',
+            marginRight : '1%',
+            padding : '1%'
           }}
         >
           {data.viewer.pinnedItems.edges.map((node, index) => {
@@ -32,7 +35,7 @@ export const PinnedRepos: React.FC = () => {
               return (
                 <div
                   key={index}
-                  style={{ marginLeft: '1rem', maxWidth: '24rem', background:'#fed5ee', padding:'10px' }}
+                  style={{ marginLeft: '1rem', maxWidth: '24rem', background:'none',padding:'0.2%',borderRadius:'25px' }}
                 >
                   <h2>{name}</h2>
                   {pushedAt ? <p>updated: {pushedAt}</p> : null}
@@ -54,7 +57,16 @@ export const PinnedRepos: React.FC = () => {
           })}
         </div>
       ) : (
-        <p>Loading...</p>
+        <div className="loading">
+	<div className="line"></div>
+	<div className="line"></div>
+	<div className="line"></div>
+	<div className="line"></div>
+	<div className="line"></div>
+	<div className="line"></div>
+	<div className="line"></div>
+	<div className="line"></div>
+</div>
       )}
     </>
   )

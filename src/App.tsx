@@ -12,9 +12,20 @@ const client = createClient({
 
 const App = () => (
   <Provider value={client}>
-    <div className='App' style={{background : '#ffb3f8',padding:'4%', fontFamily: "monospace"}}>
-      <h1>A list of my 6 pinned repositories and their information using the github graphQl API </h1>
-      <PinnedRepos />
+    <div className='App' style={{background : 'none', marginTop:'-200px', padding:'2%'}}>
+      <h1>Sidi Ahmed Ahmed cheikh | Da7a90 </h1>
+      <h4> My 6 pinned repositories and their  </h4>
+     <h2>  
+<div className="dropping-texts">
+  <div>name</div>
+  <div>description</div>
+  <div>and link</div>
+  <div>using the github graphQl API</div>
+</div>
+</h2>
+      
+     
+   <PinnedRepos />
     </div>
   </Provider>
 )
