@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ad683bbbbfa496415e3a454dcb7d319",
+    "revision": "248bd9a138ed42dce2b0404e110659d5",
     "url": "/graphql-repo-list/index.html"
   },
   {
-    "revision": "ed229821319da963758d",
+    "revision": "a1b9bc8f2bb75d9a1ea5",
     "url": "/graphql-repo-list/static/css/main.f8bd078f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/graphql-repo-list/static/js/2.eeec82f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed229821319da963758d",
-    "url": "/graphql-repo-list/static/js/main.49bb77a2.chunk.js"
+    "revision": "a1b9bc8f2bb75d9a1ea5",
+    "url": "/graphql-repo-list/static/js/main.1e5772d2.chunk.js"
   },
   {
     "revision": "a184f51eb175f1aa941a",

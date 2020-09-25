@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/graphql-repo-list/static/css/main.f8bd078f.chunk.css",
-    "main.js": "/graphql-repo-list/static/js/main.49bb77a2.chunk.js",
-    "main.js.map": "/graphql-repo-list/static/js/main.49bb77a2.chunk.js.map",
+    "main.js": "/graphql-repo-list/static/js/main.1e5772d2.chunk.js",
+    "main.js.map": "/graphql-repo-list/static/js/main.1e5772d2.chunk.js.map",
     "runtime-main.js": "/graphql-repo-list/static/js/runtime-main.426b644d.js",
     "runtime-main.js.map": "/graphql-repo-list/static/js/runtime-main.426b644d.js.map",
     "static/js/2.eeec82f3.chunk.js": "/graphql-repo-list/static/js/2.eeec82f3.chunk.js",
     "static/js/2.eeec82f3.chunk.js.map": "/graphql-repo-list/static/js/2.eeec82f3.chunk.js.map",
     "index.html": "/graphql-repo-list/index.html",
-    "precache-manifest.e181b5bb8a276a1435ca584342c57af1.js": "/graphql-repo-list/precache-manifest.e181b5bb8a276a1435ca584342c57af1.js",
+    "precache-manifest.5823cbcc57043a479559dcdb064a434f.js": "/graphql-repo-list/precache-manifest.5823cbcc57043a479559dcdb064a434f.js",
     "service-worker.js": "/graphql-repo-list/service-worker.js",
     "static/css/main.f8bd078f.chunk.css.map": "/graphql-repo-list/static/css/main.f8bd078f.chunk.css.map",
     "static/js/2.eeec82f3.chunk.js.LICENSE.txt": "/graphql-repo-list/static/js/2.eeec82f3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.426b644d.js",
     "static/js/2.eeec82f3.chunk.js",
     "static/css/main.f8bd078f.chunk.css",
-    "static/js/main.49bb77a2.chunk.js"
+    "static/js/main.1e5772d2.chunk.js"
   ]
 }
